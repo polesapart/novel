@@ -41,7 +41,7 @@
     "eventsource-parser": "^0.1.0",
     "lucide-react": "^0.244.0",
     "next": "13.4.8-canary.14",
-    "novel": "workspace:^",
+    "@sheinc/novel": "workspace:^",
     "openai": "^4.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -50,7 +50,7 @@
     "tippy.js": "^6.3.7",
     "tiptap-markdown": "^0.8.1",
     "typescript": "4.9.5",
-    "use-debounce": "^9.0.3"
+    "use-debounce": "^9.0.4"
   },
   "devDependencies": {
     "tailwind-config": "workspace:*"
