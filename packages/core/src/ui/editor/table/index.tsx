@@ -13,31 +13,31 @@ export const TableMenu = ({ editor }: { editor: any }) => {
   const items: TableMenuItem[] = [
     {
       id: "add-column-left",
-      name: "カラムを右に追加",
+      name: "Add column to the right",
       command: () => editor.chain().focus().addColumnAfter().run(),
       icon: Columns,
     },
     {
       id: "add-row-below",
-      name: "行を下に追加",
+      name: "Add row below",
       command: () => editor.chain().focus().addRowAfter().run(),
       icon: Rows,
     },
     {
       id: "delete-column",
-      name: "カラムの削除",
+      name: "Delete column",
       command: () => editor.chain().focus().deleteColumn().run(),
       icon: Columns,
     },
     {
       id: "delete-row",
-      name: "行の削除",
+      name: "Delete Row",
       command: () => editor.chain().focus().deleteRow().run(),
       icon: Rows,
     },
     {
       id: "delete-table",
-      name: "テーブルの削除",
+      name: "Delete whole table",
       command: () => editor.chain().focus().deleteTable().run(),
       icon: Trash2,
     },
